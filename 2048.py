@@ -234,13 +234,13 @@ def main(grid):
 		winner(grid)
 		move=user_input()
 		invalid_move(grid,move)
-		if move==b'd':
+		if move==b'd' or move==b'D':
 			grid=final_right(grid)
-		elif move==b'a':
+		elif move==b'a' or move==b'A':
 			grid=final_left(grid)
-		elif move==b'w':
+		elif move==b'w' or move==b'W':
 			grid=final_up(grid)
-		elif move==b's':
+		elif move==b's' or move==b'S':
 			grid=final_down(grid)
 		else:
 			print("*** PLEASE USE VALID KEYS FOR MOVES ***")
