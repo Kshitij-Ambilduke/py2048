@@ -3,9 +3,7 @@
 
 ## Description:
 2048 is a slide puzzle game in which by sliding numbers in the game grid a desired number (defautly 2048) is to be achieved.
-Whlie the game is being played, on every valid move, a random "2" is generated in the grid wherever place in empty. The game can by played with WASD keys on the keyboard, where, W key does a up-shift, A key does a left-shift, S key does a down-shift and the D key does a right-shift.
-It is to be noted that the CAPS LOCK should be turned off while playing the game or the moves will be considered as invalid move.
-The game is made more dynamic by letting the user choose the size of the grid that they want to play in and also deciding the winning number.
+Whlie the game is being played, on every valid move, a random "2" is generated in the grid wherever place in empty. The game can by played with WASD keys on the keyboard, where, W key does a up-shift, A key does a left-shift, S key does a down-shift and the D key does a right-shift. The game is made more dynamic by letting the user choose the size of the grid that they want to play in and also deciding the winning number.
 It is to be noted that the winning number should always be a power of 2.
 
 ## Game Rules:
@@ -44,3 +42,8 @@ In the video, the first case is taken with size = 3 and winning number = 4 to sh
 ___
 
  ![Alt Text](https://github.com/Kshitij-Ambilduke/py2048/blob/master/gameplay.gif)
+ 
+ ## Game specifics:
+ At the beginning, the game asks to enter the size of the grid and the winning number. If a proper number for the size and the winning number is not entered, the game will take the default value for the size and winning number (size=5, winning number=2048). If correct acceptable value is entered, the game will work according to the values given to it.
+ It can be seen from the gif above that when a random letter is entered in the place of size, the default value for size and winning number is taken.
+ In other words, if you want to play the game on default settings, just enter any invalid input at the beginning of the program and then enjoy the game!
