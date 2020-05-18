@@ -12,6 +12,15 @@ It is to be noted that the winning number should always be a power of 2.
 * On every valid move, a "2" is again randomly spawn on any one of the empty part of the grid. An invalid move is a move in which no matches are made and no number is moved. If any such invalid move is played, a message saying that the move is invalid is displayed on the screen.
 * When there is no possible way to move any number or match any numbers, the game has been lost and a message will be displayed on the screen.
 
+## Platform/Software used:
+* The game has been made on a Windows 8 system.
+* Sublime text editor was used to edit the code.
+* The code was tested on the command prompt.
+* Some modules were used in the code :
+  * [random2](https://pypi.org/project/random2/)
+  * [msvcrt](https://docs.python.org/3/library/msvcrt.html)
+  * [os](https://docs.python.org/3/library/os.html)
+
 ## About the code:
 * In the beginning, it asks the user to enter the size of the grid and the winning number. If anything else than an integer is entered, the default value for the size and the winning number is taken (size=5, winning number= 2048).
 > About the shifting mechanism:
